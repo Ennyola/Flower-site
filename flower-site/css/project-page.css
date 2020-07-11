@@ -63,12 +63,28 @@ section .text-center {
 
 #first {
     background-color: #E5E4E2;
-    padding: 50px;
+    padding: 22px 50px;
 }
 
 #first ul {
     position: relative;
     right: 42px;
+}
+
+footer {
+    font-size: 13px;
+}
+
+footer h6 {
+    font-weight: bold;
+}
+
+#first .row>div {
+    margin-top: 15px;
+}
+
+#first .row>div li {
+    margin-top: 10px;
 }
 
 footer li {
@@ -122,10 +138,13 @@ footer a:hover {
     }
 }
 
-@media screen and (max-width: 1120px) and (min-width: 768px) {
+@media (max-width: 1120px) {
     .fab {
-        margin: 30px;
+        margin: 15px;
     }
+}
+
+@media screen and (max-width: 1120px) and (min-width: 768px) {
     #first .row>div:nth-child(2),
     #first .row>div:nth-child(3) {
         position: relative;
